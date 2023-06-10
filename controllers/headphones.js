@@ -1,9 +1,11 @@
-const Headphones = require('../db/headphones')
+const Headphones = require('../Model/headphones')
+
 
 exports.getById = async (req, res) => {
     const headphones = await Headphones.find({ _id: req.params.id })
     res.status(200).send(headphones)
 }
+
 
 exports.getHeadphones = async (req, res) => {
     try {

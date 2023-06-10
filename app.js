@@ -1,5 +1,5 @@
 const express = require('express');
-const Manufacturer = require('./db/Manufacturer')
+const Manufacturer = require('./Model/Manufacturer')
 const cors = require('cors')
 require('./db/connectDb');
 const userRoute = require('./routes/user')

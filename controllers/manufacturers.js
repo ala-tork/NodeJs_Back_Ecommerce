@@ -1,5 +1,5 @@
-const Manufacturer = require('../db/Manufacturer');
-const HeadphonesMarque = require('../db/HeadphonesMarque');
+const Manufacturer = require('../Model/Manufacturer');
+const HeadphonesMarque = require('../Model/HeadphonesMarque');
 
 exports.getSmartphonesMarque = async (req, res) => {
     const manufacturers = await Manufacturer.find();
