@@ -1,0 +1,22 @@
+exports.phoneConstructor = [
+    'BENCO',
+    'EVERTEK',
+    'FIGI',
+    'HUAWEI',
+    'IKU',
+    'INFINIX',
+    'IPLUS',
+    'ITEL',
+    'LENOVO',
+    'NOKIA',
+    'OPPO',
+    'OUKITEL',
+    'OnePlus',
+    'REALME',
+    'SAMSUNG',
+    'TCL',
+    'TECNO',
+    'UMIDIGI',
+    'VIVO',
+    'XIAOMI'
+]
